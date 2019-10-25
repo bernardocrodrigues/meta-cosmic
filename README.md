@@ -11,7 +11,7 @@ That's it, use CosmicOS to power your
 - **Yocto compatible -** CosmicOS is built completely from source using the latest branch (warrior) of the [Yocto framework](https://www.yoctoproject.org). Clone, customize and build it yourself.
 - **Based on the [Angstrom Distribution]([http://www.angstrom-distribution.org](http://www.angstrom-distribution.org/)) -** supporting everything from toasters to servers.
 - **Lightweight** - Core elements take only 250MB of storage and 30mb of RAM.
-- **Docker Container Engine - ** CosmicOS ships with  
+- **Docker Container Engine** - CosmicOS ships with  
 
 ### Build it.
 
