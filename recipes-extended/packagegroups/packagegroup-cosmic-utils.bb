@@ -10,4 +10,4 @@ RDEPENDS_${PN} = " \
                     apt \
                     dpkg \
                     bash \
-"
+                 "

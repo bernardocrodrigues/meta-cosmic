@@ -49,7 +49,33 @@ source_suffix = ['.rst', '.md']
 #
 html_theme = 'alabaster'
 
+html_logo = 'logo.jpg'
+html_favicon = 'favicon.ico'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+html_theme_options = {
+    "show_powered_by": False,
+    "github_user": "bernardocrodrigues",
+    "github_repo": "meta-cosmic",
+    "github_banner": True,
+    "show_related": False,
+    "note_bg": "#FFF59C",
+}
+
+templates_path = ["_templates"]
+
+
+html_sidebars = {
+    "index": ["sidebar.html", "searchbox.html", "localtoc.html"],
+    "**": [
+        "sidebar.html",
+        "searchbox.html",
+        "localtoc.html",
+        "relations.html",
+        "sourcelink.html",
+    ],
+}
