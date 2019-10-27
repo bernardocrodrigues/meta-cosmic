@@ -5,6 +5,7 @@
 .. image:: https://img.shields.io/github/license/bernardocrodrigues/meta-cosmic 
 .. image:: https://img.shields.io/github/downloads/bernardocrodrigues/meta-cosmic/total
 .. image:: https://img.shields.io/github/issues/bernardocrodrigues/meta-cosmic
+.. image:: https://readthedocs.org/projects/meta-cosmic/badge/?version=latest
 
 ------------
 
