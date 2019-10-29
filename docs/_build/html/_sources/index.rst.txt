@@ -10,36 +10,40 @@
 ------------
 
 
-
-What it is.
+What it is
 ===========
 
-CosmicOS is a lightweight Linux Operating System that brings you a customized sandbox tuned for distributed computing applications mainly for educational purposes. 
+**CosmicOS** is a lightweight Linux Distribution that ships a customized sandbox tuned for distributed computing and cloud applications. 
 
-That's it, use CosmicOS to power your 
+Taking influence on `CoreOS <https://coreos.com>`_, CosmicOS tries to implement the concept of "Container Linux" in a acessible way by targeting embedded devices, such as the Raspberry Pi. Seting up a cluster of Pis is cheaper than doing the same with Intels or AMDs after all.
+
+Containerized applications on embedded devices are also becoming a trend thanks to the benefits of fast time-to-market, high decoupling and reproductibility.
 
 
-Its features.
+
+Its features
 ======================
 
 - **Yocto compatible** - CosmicOS is built completely from source using the latest branch (warrior) of the `Yocto framework <https://www.yoctoproject.org>`_. Clone, customize and build it yourself.
 - **Based on the Angstrom Distribution** - Supporting everything from toasters to servers.
-- **Lightweight** - Core elements take only 250MB of storage and 30mb of RAM.
+- **Lightweight** - Core elements take only 400mb of storage and 80mb of RAM.
 - **Docker Container Engine** - CosmicOS ships with the world most popular container runtime.
 - **Python** - Native Python support.
 
-Supported devices.
+Supported devices
 ==================
+CosmicOS is scripted within Yocto, so you could potentially build it to any target discribed in Yocto's BSPs. However, the only targets currently being tested are:
 
 - Raspberry Pi 3
 
+If you manage to build it for something else, please let me know and I'll mention it here.
 
-Try it.
+Try it
 =======
 
 1. Download the latest release
 
-Build it.
+Build it
 =========
 
 Building and customizing CosmicOS is really easy thanks to the Yocto framework. Check the build guides for more information about it.
@@ -48,18 +52,13 @@ Building and customizing CosmicOS is really easy thanks to the Yocto framework. 
    :glob:
 
    build
+   changelog
 
-Changelog
-=========
+Contributing
+============
 
-- **v0.1.0** 
-    - Linux Kernel 4.19.71
-    - Docker CE 18.09.3-ce
-    - Glibc 2.29
-    - Yocto 2.7 Warrior
-    - Python 2 & 3.7.2
+.. toctree::
+   :glob:
 
-
-
-
-
+   contrib
+   coc
