@@ -3,5 +3,5 @@
 
 ### Welcome to CosmicOS! 
 
-Check the project's complete documentation [here](https://meta-cosmic.readthedocs.io/en/latest/) for more information. For completePlease head down to 
+For more information, check the project's complete documentation [here](https://meta-cosmic.readthedocs.io/en/latest/).
 
