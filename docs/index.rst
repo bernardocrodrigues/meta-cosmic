@@ -11,7 +11,7 @@
 
 ------------
 
-**Download the latest release:** `v0.2.0 <https://github.com/bernardocrodrigues/meta-cosmic/releases/download/0.1.0/CosmicOS-0.1.0-raspberrypi3.rootfs.rpi-sdimg.tar.gz>`_  
+**Download the latest release:** `v0.2.0 <https://github.com/bernardocrodrigues/meta-cosmic/releases/download/0.2.0/CosmicOS-0.2.0-raspberrypi3.rootfs.rpi-sdimg.tar.gz>`_  
 
 Taking influence on `CoreOS <https://coreos.com>`_, CosmicOS tries to implement the concept of "Container Linux" but this time on embedded devices, such as the Raspberry Pi. Seting up a cluster of Pis is cheaper than doing the same with server grade systems after all. 
 
