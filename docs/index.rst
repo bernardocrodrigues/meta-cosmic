@@ -3,7 +3,6 @@
 
 .. image:: https://img.shields.io/github/v/release/bernardocrodrigues/meta-cosmic?include_prereleases 
 .. image:: https://img.shields.io/github/license/bernardocrodrigues/meta-cosmic 
-.. image:: https://img.shields.io/github/downloads/bernardocrodrigues/meta-cosmic/total
 .. image:: https://img.shields.io/github/issues/bernardocrodrigues/meta-cosmic
 .. image:: https://readthedocs.org/projects/meta-cosmic/badge/?version=latest
 
@@ -12,9 +11,9 @@
 
 ------------
 
-**Download the latest release:** `v0.1.0 <https://github.com/bernardocrodrigues/meta-cosmic/releases/download/0.1.0/CosmicOS-0.1.0-raspberrypi3.rootfs.rpi-sdimg.tar.gz>`_  
+**Download the latest release:** `v0.2.0 <https://github.com/bernardocrodrigues/meta-cosmic/releases/download/0.1.0/CosmicOS-0.1.0-raspberrypi3.rootfs.rpi-sdimg.tar.gz>`_  
 
-Taking influence on `CoreOS <https://coreos.com>`_, CosmicOS tries to implement the concept of "Container Linux" but targeting embedded devices, such as the Raspberry Pi. Seting up a cluster of Pis is cheaper than doing the same with server grade systems after all. 
+Taking influence on `CoreOS <https://coreos.com>`_, CosmicOS tries to implement the concept of "Container Linux" but this time on embedded devices, such as the Raspberry Pi. Seting up a cluster of Pis is cheaper than doing the same with server grade systems after all. 
 
 The ideia behind CosmicOS came from the lack of something that could help me study and prototype distributed applications with ease. Therefore, the goal here is mainly educational but feel free to try CosmicOS however you'd like.
 
@@ -23,11 +22,10 @@ Containerized applications on embedded devices are also becoming a trend thanks 
 Its features
 ======================
 
-- **Docker Container Engine** - CosmicOS ships with the world most popular container runtime.
-- **Lightweight** - Core elements take only 400mb of storage and 80mb of RAM. Aprox. 80% of that is thanks to Docker and Python.
+- **Docker Container Engine** - CosmicOS ships with the world most popular container runtime with all its tools.
+- **Lightweight** - Core elements take only 400mb of storage. Aprox. 80% of that is thanks to Docker and Python.
 - **Yocto compatible** - CosmicOS is built completely from source using the latest branch (warrior) of the `Yocto framework <https://www.yoctoproject.org>`_. Clone, customize and build it yourself.
-- **Based on the Angstrom Distribution** - Supporting everything from toasters to servers.
-- **Python** - Native Python support.
+- **Python** - Native Python 2 & 3 support.
 
 Supported devices
 ==================

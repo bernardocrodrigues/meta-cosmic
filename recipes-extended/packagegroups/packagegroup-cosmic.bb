@@ -19,6 +19,7 @@ RDEPENDS_${PN}-core =   "\
 # Docker Packages: implement for Docker support
 RDEPENDS_${PN}-docker = "\
                         docker-ce \
+                        python3-docker-compose \
                         "
 
 # Python Packages: implement for Python support
